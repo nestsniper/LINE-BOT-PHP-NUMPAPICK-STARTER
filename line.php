@@ -11,7 +11,7 @@ function send_LINE($msg){
       ];
 
       // Make a POST Request to Messaging API to reply to sender
-      $url = 'https://api.line.me/v2/bot/message/push';
+      $url = 'https://suchartk2.herokuapp.com/bot.php';
       $data = [
 
         'Userid' => 'Uf00004aab9254c39ade77e1b2a0772d0',
