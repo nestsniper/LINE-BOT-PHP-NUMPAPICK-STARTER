@@ -1,7 +1,7 @@
 <?php
 $access_token = 'Ehdbh7r5LudCZCM0lytY+4hW9qe6ewf388+DGDiIoDHEpsH2jO8UH+0N+DqOrQdj+CAKx2c6lWScJ4MWfHwSJSfgoFLzzwKFn3jp4Nqdpb2gBdIuCJlybNJX';
 
-$url = 'https://api.line.me/v1/oauth/verify';
+$url = 'https://suchartk2.herokuapp.com/bot.php';
 
 $headers = array('Authorization: Bearer ' . $access_token);
 
