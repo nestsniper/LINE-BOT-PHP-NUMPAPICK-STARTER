@@ -14,7 +14,7 @@ function send_LINE($msg){
       $url = 'https://suchartk2.herokuapp.com/bot.php';
       $data = [
 
-        'Userid' => 'Uf00004aab9254c39ade77e1b2a0772d0',
+        'to' => 'Uf00004aab9254c39ade77e1b2a0772d0',
         'messages' => [$messages],
       ];
       $post = json_encode($data);
