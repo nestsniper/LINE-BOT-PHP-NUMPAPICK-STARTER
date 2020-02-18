@@ -1,6 +1,4 @@
  <?php
-  
-send_LINE("Test from suchart pc...");
 
  function send_LINE($msg){
  //  $access_token = 'Ehdbh7r5LudCZCM0lytY+4hW9qe6ewf388+DGDiIoDHEpsH2jO8UH+0N+DqOrQdj+CAKx2c6lWScJ4MWfHwSJSfgoFLzzwKFn3jp4Nqdpb2gBdIuCJlybNJX';
