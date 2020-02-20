@@ -13,7 +13,7 @@
 
        // Make a POST Request to Messaging API to reply to sender  //api.line.me/v2/bot/message/push
 
-       $url = 'https://suchartk2.herokuapp.com/bot.php';
+       $url = 'https://api.line.me/v2/bot/message/push';
        $data = [
 
          'to' => 'Uf00004aab9254c39ade77e1b2a0772d0',
