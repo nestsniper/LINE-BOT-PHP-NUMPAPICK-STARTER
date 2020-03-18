@@ -3,8 +3,8 @@
  function send_LINE($msg){
   
   
-  //$access_token = 'Ehdbh7r5LudCZCM0lytY+4hW9qe6ewf388+DGDiIoDHEpsH2jO8UH+0N+DqOrQdj+CAKx2c6lWScJ4MWfHwSJSfgoFLzzwKFn3jp4Nqdpb2gBdIuCJlybNJXT8ZyX33/PRM0bSUwxXhcQ5FBDXjR3QdB04t89/1O/w1cDnyilFU=';
-  $access_token = 'Ehdbh7r5LudCZCM0lytY+4hW9qe6ewf388+DGDiIoDHEpsH2jO8UH+0N+DqOrQdj+CAKx2c6lWScJ4MWfHwSJSfgoFLzzwKFn3jp4Nqdpb2gBdIuCJlybNJXT8ZyX33/PRM0bSUwxXhcQ5FBDXjR3QdB04t89/1O/w1cDnyilFU='; 
+  //$access_token = 'mRCliz7RpRQiI1f8Tld6Az9VFfQUYfbatbpwa6nThW0zRg+Hqw0Qm8vx51QCycisit/xq2WW9/dLFsk44wEulrhKtHYIZAD1yZxmosIe+zXZELPVdYUvweUBy4GVXAW9aBBtZm8Y0p7kMmyWKj+40wdB04t89/1O/w1cDnyilFU=';
+  $access_token = 'mRCliz7RpRQiI1f8Tld6Az9VFfQUYfbatbpwa6nThW0zRg+Hqw0Qm8vx51QCycisit/xq2WW9/dLFsk44wEulrhKtHYIZAD1yZxmosIe+zXZELPVdYUvweUBy4GVXAW9aBBtZm8Y0p7kMmyWKj+40wdB04t89/1O/w1cDnyilFU='; 
   $messages = [
          'type' => 'text',
          'text' => $msg
@@ -16,7 +16,7 @@
        $url = 'https://api.line.me/v2/bot/message/push';
        $data = [
 
-         'to' => 'Uf00004aab9254c39ade77e1b2a0772d0',
+         'to' => 'U3360b69e239a44212a13b346da753beb',
          'messages' => [$messages],
        ];
        $post = json_encode($data);
